@@ -1,0 +1,25 @@
+.readBook{
+    height: 100vh;
+    padding:0 30px 60px 30px;
+    display: flex;
+}
+
+.readBook .kiri{
+    flex: 20%;
+    z-index: 999;
+}
+
+.readBook .kanan{
+    flex: 80%;
+}
+
+.readBook .readBookLogo img{
+    width: 100px;
+    margin: 30px 0 30px 60px;
+}
+
+.readBook .pagesBook img{
+    width: 100%;
+    margin: auto;
+
+}

@@ -1,0 +1,125 @@
+.subscribe{
+    display: flex;
+}
+
+.subscribeLeft{
+    flex: 20%;
+}
+
+.subscribeRight{
+    flex: 80%;
+}
+
+.subscribeRight .form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.subscribeRight .form h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* .subscribeRight .form{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 170px;
+    background-color: blue;
+} */
+
+.descChild{
+    display: flex;
+    align-items: center; 
+    margin-top: -10px;
+}
+
+.descChild p{
+    margin-top: 15px;
+}
+
+.descChild2 {
+    display: flex;
+    align-items: center;
+}
+
+.descChild2 p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.descChild2 img{
+    margin-left: 110px;
+    margin-right: 5px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input input{
+    width: 80%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    background-color: #bcbcbc;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+} 
+
+.input .fileInput{
+    display: none;
+}
+
+.input label{
+    width: 80%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 2px #bcbcbc solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.subscribeRight form button {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 15px 10px 15px 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}

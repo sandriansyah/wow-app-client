@@ -1,0 +1,109 @@
+.detailBook{
+    display: flex;
+}
+
+.detailBookLeft{
+    flex: 20%;
+}
+
+.detailBookRight{
+    flex: 80%;
+    padding-bottom: 20px;
+}
+
+.informationBook{
+    display: flex;
+    justify-content:center;
+    margin-top: 120px;
+    width: 80%;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.informationBook .informationBookCover img{
+    width: 300px;
+    margin-right: 100px;
+}
+
+.informationBook .informationBookData .titleBook{
+    margin-bottom: 35px;
+}
+
+.informationBook .informationBookData p{
+    color: #929292;
+}
+
+.informationBook .informationBookData .titleBook h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.informationBook .informationBookData .rilisBook{
+    margin-bottom: 25px;
+}
+
+.informationBook .informationBookData .rilisBook h6{
+    font-weight: bold;
+}
+
+.informationBook .informationBookData .pagesBook h6{
+    font-weight: bold;
+}
+
+.informationBook .informationBookData .pagesBook{
+    margin-bottom: 25px;
+}
+
+.informationBook .informationBookData .isbnBook{
+    margin-bottom: 25px;
+}
+
+.informationBook .informationBookData .isbnBook h6{
+    font-weight: bold;
+    color: red;
+}
+
+.detailBook .detailBookRight .aboutBook {
+    width: 80%;
+    margin: auto;
+}
+
+.detailBook .detailBookRight .aboutBook h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.detailBook .detailBookRight .aboutBook p{
+    text-align: justify;
+}
+
+.detailBook .detailBookRight .btnDetailBook .btnDetailBook1{
+    background-color: #D60000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px 15px;
+    margin-right: 20px;
+}
+
+.detailBook .detailBookRight .btnDetailBook{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.detailBook .detailBookRight .btnDetailBook .btnDetailBook1 img{
+    margin-left: 10px;
+}
+
+.detailBook .detailBookRight .btnDetailBook .btnDetailBook2{
+    background-color: #cdcdcd;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px 15px;
+}

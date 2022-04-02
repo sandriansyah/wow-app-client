@@ -1,0 +1,95 @@
+.ProfileActSub{
+    display: flex;
+}
+
+.ProfileActSubRight{
+    flex: 20%;
+}
+
+.ProfileActSubLeft{
+    flex: 80%;
+}
+
+
+.detailProfile{
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.detailProfile h1{
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.detailProfile .profileUser{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFD9D9;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.detailProfile .profileUser .profileUserLeft .data{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.detailProfile .profileUser .profileUserLeft .data .dataProfile{
+    display: flex;
+    flex-direction:column;
+    margin-left: 20px;
+}
+
+.detailProfile .profileUser .profileUserLeft .data .dataProfile p{
+    margin-bottom: 0px;
+}
+
+.detailProfile .profileUser .profileUserRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.detailProfile .profileUser .profileUserRight img{
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+}
+
+.detailProfile .profileUser .profileUserRight .btnEditProfile button{
+    width: 100%;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #D60000;
+    border: none;
+    border-radius: 5px;
+}
+
+.myListBook{
+    width: 90%;
+    margin: auto;
+}
+
+.myListBook .bookList img{
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.myListBook h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.myListBook .detailMyListBook{
+    width: 20%;
+}
+
+.myListBook .detailMyListBook h3{
+    font-family: 'Times New Roman', Times, serif;
+}

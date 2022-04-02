@@ -1,0 +1,47 @@
+.bgInput{
+    background-color: #f1eeee;
+}
+
+.addBook .formAddBook{
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.addBook .formAddBook h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.addBook .formAddBook label input{
+    display: none;
+}
+
+.addBook .formAddBook label{
+    border: solid 1px #cacaca;
+    padding: 5px 20px 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+.addBook .formAddBook label img{
+    margin-left: 10px;
+}
+
+.addBook .formAddBook .btnFormAddBook{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+}
+
+.addBook .formAddBook .btnFormAddBook button{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}

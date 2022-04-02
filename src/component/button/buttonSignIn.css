@@ -1,0 +1,52 @@
+.buttonSignIn{
+    background-color: #CDCDCDB2;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.modalFromBosstrap{
+    margin-top: 200px;
+    border-radius: 20px;
+}
+
+.modalSignIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.modalSignIn input{
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: #d2d2d2;
+    width: 100%;
+}
+
+.modalSignIn h3{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.modalSignIn button{
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+.modalSignIn p{
+    text-align: center;
+    margin-top: 15px;
+}

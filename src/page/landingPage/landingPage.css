@@ -1,0 +1,54 @@
+.containerLanding {
+    
+    height: 100vh;
+    background-image: url("../../media/Vector1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right center;
+    background-attachment: scroll;
+    align-items: center;
+    display: flex;
+    /* align-content: center; */
+}
+
+.containerLanding .contentLanding{
+    /* padding-top: 100px; */
+    margin-left: 200px;
+    width: 470px;
+    margin-top: 0;
+}
+
+.contentLanding p{
+    margin-left: 30PX;
+    font-size: 20PX;
+    margin-top: -80px;
+    margin-bottom: 30PX;
+
+}
+.container .contentLanding img{
+    width: 450px;
+    margin-top: -50PX;
+}
+
+/* .buttonLogin{
+    background-color: #D60000;
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 30PX;
+    font-size: 20px;
+}
+
+.buttonRegister{
+    background-color: #CDCDCDB2;
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 20px;
+} */

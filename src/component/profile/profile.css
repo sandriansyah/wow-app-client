@@ -1,0 +1,67 @@
+.profile{
+    /* display: flex;
+    flex-direction: column;
+     */
+     /* background-color: aqua; */
+     padding: 20px;
+}
+
+.sectionProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionProfile p{
+    color: red;
+    font-weight: bold;
+}
+
+.sectionProfile .logo img {
+    width: 100px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);    
+}
+
+.imgProfile img {
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+.profileIcon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subscribeIcon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logoutIcon{
+    display: flex;
+    align-items: center;
+}
+
+.profile button{
+    background-color: transparent;
+    border: none;
+}
+
+.icon img{
+    margin-right: 15px;
+    width: 25px;
+}
+
+.iconName p{
+    margin-top: 15px;
+}

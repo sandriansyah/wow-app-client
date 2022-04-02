@@ -1,0 +1,33 @@
+.btnSendSubs{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    padding: 15px 10px 15px 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.modalSubs{
+    margin-top: 150px;
+}
+
+.modalSubs p{
+    color: #29BD11;
+    font-size: 23px;
+    text-align: center;
+    justify-self: center;
+}
+
+.modalSubs .Paragraf{
+    width: 90%;
+    margin: auto;
+}

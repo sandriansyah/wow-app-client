@@ -1,0 +1,77 @@
+.listTrans{
+    background-color: #f2f2f2;
+    height: 100vh;
+
+}
+
+.listTrans .tableListTrans{
+    padding-top: 150px;
+}
+
+.listTrans .tableListTrans .titleTableListTrans{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px;
+} 
+
+.listTrans .tableListTrans .titleTableListTrans h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.listTrans .tableListTrans .rowHead{
+    border-bottom: solid 2px rgb(8, 8, 8);
+}
+
+.listTrans .tableListTrans table{
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.listTrans .tableListTrans .rowHead th{
+    color: red;
+    width: auto;
+    height: 55px;
+    margin-right: 20px;
+    border-bottom: solid 1px rgb(173, 171, 171);
+    /* text-align: center; */
+}
+
+.listTrans .tableListTrans table .rowBody1{
+    background-color: white;
+    height: 55px;
+    /* text-align: center; */
+    justify-content: center;
+    border-bottom: solid 1px rgb(173, 171, 171);
+}
+
+/* .listTrans .tableListTrans table tr:hover{
+    background-color: rgb(173, 171, 171);
+    height: 55px;
+    text-align: center;
+    justify-content: center;
+    border-bottom: solid 1px rgb(173, 171, 171);
+} */
+
+.listTrans .tableListTrans table .rowBody2{
+    height: 55px;
+    border-bottom: solid 1px rgb(173, 171, 171);
+    background-color: #E5E5E5;
+}
+
+.dropdown-toggle::after{
+    color:#1C9CD2;
+    display: none;
+}
+
+.triangle{
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.7em solid #1C9CD2;
+    border-right: 0.7em solid transparent;
+    border-bottom: 0;
+    border-left: 0.7em solid transparent;
+}

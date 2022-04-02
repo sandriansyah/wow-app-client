@@ -1,0 +1,9 @@
+.buttonAddMyList button{
+    background-color: #D60000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 5px 15px;
+    margin-right: 20px;
+}

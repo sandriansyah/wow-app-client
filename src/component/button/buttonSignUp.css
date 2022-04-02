@@ -1,0 +1,62 @@
+.buttonSignUp{
+    /* background-color: #D60000; */
+    border: none;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 30PX;
+    font-size: 20px;
+}
+
+/* .modalFromBosstrap{
+    margin-top: 100px;
+    border-radius: 20px;
+} */
+
+.modal-dialog{
+    /* background-color: #D60000; */
+    margin-top: 10px !important ;
+}
+
+.modalSignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.modalSignUp input{
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background-color: #d2d2d2;
+    width: 100%;
+}
+
+.modalSignUp h3{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.modalSignUp button{
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red ;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+}
+
+.buttonSignUp{
+    background-color: red !important ;
+}
+
+.modalSignUp p{
+    text-align: center;
+    margin-top: 15px;
+}
