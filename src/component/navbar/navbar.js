@@ -55,7 +55,7 @@ function Navbarr(){
             <div className="navProfile me-5">                                
                 <Dropdown>
                     <Dropdown.Toggle className="dropdownProfile shadow-none" variant="" id="dropdown-basic">
-                    <img src={NavProfile} alt="" />            
+                    <img src={profile.fotoProfile} alt="" />            
                     </Dropdown.Toggle>
 
                     <Dropdown.Menu className="dropdownMenu" >
