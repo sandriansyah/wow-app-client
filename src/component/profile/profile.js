@@ -96,7 +96,7 @@ function Profile() {
           </Link>         
         </div>
         <div className="imgProfile">
-          <img src={profile.fotoProfile} alt="" />
+          <img src={ImgProfile} alt="" />
         </div>
         <h3>{dataUser.fullName}</h3>
         
