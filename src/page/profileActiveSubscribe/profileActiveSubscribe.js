@@ -230,7 +230,7 @@ const navigate = useNavigate()
                                 {myBooks.map((item,index)=>{
                                 return(
                                     <div onClick={()=>{navigate(`/bookdetail/${item.book.id}`)}} key={index} className="bookList col-3">
-                                        <img src={`https://wow-app-server.herokuapp.com//uploads/imgCover/${item.book.imgCover}`} alt="" />
+                                        <img src={`https://wow-app-server.herokuapp.com/uploads/imgCover/${item.book.imgCover}`} alt="" />
                                         <div className="text-start ms-3">
                                             <h3>{item.book.title}</h3>
                                             <p >{item.book.author}</p>

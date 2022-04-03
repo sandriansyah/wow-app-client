@@ -96,7 +96,7 @@ function Profile() {
           </Link>         
         </div> 
         <div className="imgProfile">
-          <img src={dataUser.status == "admin"?ProfileAdmin:profile.fotoProfile} alt="" />
+          <img src={profile.fotoProfile} alt="" />
         </div>
         <h3>{dataUser.fullName}</h3>
         
