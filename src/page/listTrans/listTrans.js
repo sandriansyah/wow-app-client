@@ -50,8 +50,8 @@ function ListTrans(){
 
     useEffect(()=>{
         getTransaction()
-        getActiveTransaction()
-    },[timeCoba])
+       
+    },[])
 
 
     const approveTrans = async(id,idUser)=>{
