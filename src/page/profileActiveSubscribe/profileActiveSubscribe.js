@@ -100,7 +100,7 @@ const navigate = useNavigate()
             formData.set("gender",form.gender);
             formData.set("phoneNumber",form.phoneNumber);
             formData.set("address",form.address);
-            formData.set("fotoProfile",form.fotoProfile[0],form.fotoProfile[0].name);
+            // formData.set("fotoProfile",form.fotoProfile[0],form.fotoProfile[0].name);
 
             const response = await API.patch("/profile",formData,config)
             console.log(response);
