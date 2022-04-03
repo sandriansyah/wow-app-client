@@ -34,19 +34,19 @@ function ListTrans(){
             console.log(error);
         }
     }
-    const [timeCoba,setTimeCoba] = useState("")
-    const getActiveTransaction = async ()=>{
-        try {
-            let time = new Date()
-            const response = await API.get("/transactionActive")
+    // const [timeCoba,setTimeCoba] = useState("")
+    // const getActiveTransaction = async ()=>{
+    //     try {
+    //         let time = new Date()
+    //         const response = await API.get("/transactionActive")
             
-            setTimeCoba(response.data.data.transaction[0].timeApprove)
-            let distence = time - timeCoba
+    //         setTimeCoba(response.data.data.transaction[0].timeApprove)
+    //         let distence = time - timeCoba
 
-        } catch (error) {
-            console.log(error);
-        }
-    }
+    //     } catch (error) {
+    //         console.log(error);
+    //     }
+    // }
 
     useEffect(()=>{
         getTransaction()
