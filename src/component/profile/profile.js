@@ -1,7 +1,7 @@
 import React,{useContext, useEffect, useState} from "react";
 import "./profile.css";
 import Logo from "../../media/Icon.png";
-import ImgProfile from "../../media/Ellipse 1.png";
+import ProfileAdmin from "../../media/erma.jpeg";
 import IconProfile from "../../media/user 1.png";
 import IconSubscribe from "../../media/bill 1.png";
 import IconLogout from "../../media/logout 1.png";
@@ -94,9 +94,9 @@ function Profile() {
           <Link to="/home">
             <img src={Logo} alt="" />
           </Link>         
-        </div>
+        </div> 
         <div className="imgProfile">
-          <img src={ImgProfile} alt="" />
+          <img src={dataUser.status == "admin"?ProfileAdmin:profile.fotoProfile} alt="" />
         </div>
         <h3>{dataUser.fullName}</h3>
         
