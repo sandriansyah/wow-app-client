@@ -41,7 +41,7 @@ const ownStyles = {
             </div>
 
             <div className="kanan" style={{ height: "100vh", position: "relative" }} >
-                <ReactReader  styles={ownStyles} url= {`http://localhost:5000/uploads/bookFile/${book.bookFile}`}/>
+                <ReactReader  styles={ownStyles} url= {book.bookFile}/>
             </div>
         </div>
     )
