@@ -2,8 +2,7 @@ import axios from "axios";
 
 export const API = axios.create({
     baseURL: 
-    "https://wow-app-server.herokuapp.com/api/v1/" ||
-    "http://localhost:5000/api/v1",
+    "https://wow-app-server.herokuapp.com/api/v1/"
 });
 
 export const setAuthToken = (token) => {
