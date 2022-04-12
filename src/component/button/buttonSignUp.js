@@ -129,7 +129,7 @@ function BtnSignUp() {
         </button>
 
         <Modal className="modalFromBosstrap mt-5" show={state.show.showSignUp}  onHide={handleClose}> 
-            <div class="modalSignUp">
+            <div className="modalSignUp">
                 <form className="d-inline" onSubmit={handleSubmit}>
                     <h3>Sign Up</h3>
                     {message}
@@ -146,7 +146,6 @@ function BtnSignUp() {
                         Sign Up
                     </button>
                     <p>Already have an account ? Klik <b onClick={handleHere} style={{cursor:"pointer"}}>Here</b> </p>
-
                 </form>
             </div>                  
         </Modal>

@@ -51,7 +51,7 @@ function AddBook(){
             "Content-type": "multipart/form-data", 
             }, 
         };  
-    
+        console.log(form);
           // Data body 
         const formData = new FormData(); 
         formData.set("title", form.title); 
@@ -63,7 +63,10 @@ function AddBook(){
         formData.set("bookFile", form.bookFile[0], form.bookFile[0].name); 
         formData.set("imgCover", form.imgCover[0], form.imgCover[0].name); 
     
+        
         console.log(formData); 
+        const body = JSON.stringify(formData)
+        console.log(body);
           // Insert data user to database 
         const response = await API.post("/book", formData, config); 
 
@@ -75,10 +78,9 @@ function AddBook(){
                 'Good job!',
                 'You clicked the button!',
                 'success'
-              )
+            )
         }
         
-
         // navigate("/addbook")
         } catch (error) { 
         console.log(error); 

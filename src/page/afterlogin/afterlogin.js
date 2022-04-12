@@ -18,6 +18,7 @@ function AfterLogin() {
   const [user,setUser] = useContext(UserContext)
   // const [state,dispacth] = useContext(SubsContext)
   const [books,setBooks] = useState([])
+  console.log(books);
 
     const navigate=useNavigate()
 
