@@ -65,8 +65,7 @@ function AddBook(){
     
         
         console.log(formData); 
-        const body = JSON.stringify(formData)
-        console.log(body);
+        
           // Insert data user to database 
         const response = await API.post("/book", formData, config); 
 
