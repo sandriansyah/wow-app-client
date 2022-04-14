@@ -22,7 +22,7 @@ const [user,setUser] = useState([])
 
 const navigate = useNavigate()
 
-
+console.log(myBooks);
     const getMyBooks = async()=>{
         try {
             const response = await API.get("/myListBook")
@@ -230,7 +230,7 @@ const navigate = useNavigate()
                                 {myBooks.map((item,index)=>{
                                 return(
                                     <div onClick={()=>{navigate(`/bookdetail/${item.book.id}`)}} key={index} className="bookList col-3">
-                                        <img src={item.book.imgCover} alt="" />
+                                        <img src={item.imgCover} alt="" />
                                         <div className="text-start ms-3">
                                             <h3>{item.book.title}</h3>
                                             <p >{item.book.author}</p>
