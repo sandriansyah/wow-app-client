@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-    baseURL: "https://windowofworld-server.herokuapp.com/api/v1/",
+    baseURL: "https://wowapp-server.herokuapp.com//api/v1/",
 });
 
 export const setAuthToken = (token) => {
