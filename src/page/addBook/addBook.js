@@ -142,11 +142,11 @@ function AddBook(){
                     </Form.Group>
 
 
-                    <label className="me-4 text-danger">
+                    {/* <label className="me-4 text-danger">
                         Attache Book File
                         <input name="bookFile" type="file" onChange={handleChange} />
                         <img src={IconFile}  />
-                    </label>
+                    </label> */}
 
                     <label className="text-danger">
                         Attache Book Cover
