@@ -63,7 +63,7 @@ function Navbarr(){
                             <img src={IconAddBook}/> Add Book
                         </Dropdown.Item>
                         <hr/>
-                        <Dropdown.Item  href="/listtrans">
+                        <Dropdown.Item onClick={()=>{navigate("/listtrans")}}>
                             <img src={IconList}/> Transaction
                         </Dropdown.Item>
                         <hr/>
