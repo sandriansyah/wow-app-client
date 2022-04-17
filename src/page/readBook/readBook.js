@@ -41,7 +41,7 @@ const ownStyles = {
             </div>
 
             <div className="kanan" style={{ height: "100vh", position: "relative" }} >
-                <ReactReader  styles={ownStyles} url= {`http://localhost:5000/uploads/bookFile/${book.bookFile}`}/>
+                <ReactReader  styles={ownStyles} url= {`https://res.cloudinary.com/doufzuoet/raw/upload/v1650171518/wowapp/Donny_Dhirgantoro_-_5_cm_dhm651.epub`}/>
             </div>
         </div>
     )

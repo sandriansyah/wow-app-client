@@ -7,6 +7,8 @@ import {Modal} from "react-bootstrap"
 import Profile from "../../component/profile/profile";
 import "./afterlogin.css";
 import PosterImg from "../../media/Frame 1.png";
+import Delete from "../../media/delete.png"
+import Edit from "../../media/Edit.png"
 
 // import {dataBook} from "../fakeData"
 // import {myListBook} from "../profileActiveSubscribe/profileActiveSubscribe"

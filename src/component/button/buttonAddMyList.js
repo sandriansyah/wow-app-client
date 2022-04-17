@@ -1,6 +1,7 @@
 import { useContext,useState } from "react"
 import IconSaveList from "../../media/saveList.png"
 import "./buttonAddMyList.css"
+import Button from '@mui/material/Button';
 import {useNavigate} from "react-router-dom"
 
 import {API} from "../../config/api"
@@ -39,8 +40,8 @@ function ButtonAddMyList(props){
         
 
     return(
-        <div className="buttonAddMyList">
-            <button onClick={handleButton} >Add Mylist Book <img src={IconSaveList} alt=""/> </button>
+        <div>
+            <Button sx={{bgcolor:"primary.dark", marginRight:"15px"}} variant="contained" onClick={handleButton} >Add Mylist Book <img src={IconSaveList} alt="" className="ms-2"/> </Button>
         </div>
     )
 }
